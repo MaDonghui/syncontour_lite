@@ -22,7 +22,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.banner {
+.banner, .showreel {
   height: 100vh;
   width: 1024px;
   flex-shrink: 0;
@@ -43,7 +43,7 @@ body {
   font-size: 128px;
 }
 
-.banner h2 {
+.banner h2, .showreel h2 {
   font-size: 32px;
 }
 
