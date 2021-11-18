@@ -1,12 +1,14 @@
 body {
-  background-color: rgb(13, 19, 35);
+  background-color: #ffd523;
 
   font-family: "Josefin Sans", sans-serif;
-  color: white;
+  color: black;
 }
 
 .highlight {
-    color: #FFD523;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0.05em 0.05em 0 hsl(235, 21%, 22%);
 }
 
 #content {
@@ -21,28 +23,28 @@ body {
 }
 
 .banner {
-    height: 100vh;
-    width: 1024px;
-    flex-shrink: 0;
-    scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+  height: 100vh;
+  width: 1024px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .banner span {
-    font-size: 48px;
-    padding-bottom: 32px;
+  font-size: 48px;
+  padding-bottom: 32px;
 }
 
 .banner h1 {
-    padding-bottom: 32px;
-    font-size: 128px;
+  padding-bottom: 32px;
+  font-size: 128px;
 }
 
 .banner h2 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .member {
@@ -56,7 +58,7 @@ body {
 }
 
 .profile {
-    margin-top: 192px;
+  margin-top: 192px;
 }
 
 .profile img {
@@ -64,33 +66,32 @@ body {
 }
 
 .profile .name {
-    position: relative;
-    bottom: 64px;
-    left: 307px;
+  position: relative;
+  bottom: 64px;
+  left: 300px;
 
-    font-size: 128px;
-} 
-
+  font-size: 128px;
+}
 
 .profile p {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .contact {
-    height: 100vh;
-    width: 1024px;
-    flex-shrink: 0;
-    scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+  height: 100vh;
+  width: 1024px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .contact h1 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .contact a {
-    font-size: 64px;
+  font-size: 64px;
 }
